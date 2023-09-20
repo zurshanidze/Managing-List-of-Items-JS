@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.btn{
+    width: 100px;
+    height: 35px;
+}
+
+.person-list{
+    margin:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:400px;
+    height: fit-content;
+    background: grey;
+}
+
+.person-name-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 50px;
+    background-color: rgb(107, 107, 184);
+    margin: 2px 0;
+    border: 2px solid white;
+}
+
+.person-name {
+    margin:2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    height: 30px;
+    background-color: rgb(107, 107, 184);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    border: 2px solid white;
+}
